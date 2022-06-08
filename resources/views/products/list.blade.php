@@ -15,7 +15,7 @@
                             </a>
 
                             <span class="stext-105 cl3">
-                                {!!  \App\Helpers\Helper::price($product->price, $product->price_sale)  !!}
+                                {!!  \App\Helpers\Helper::price($product->price, $product->price_sale)  !!} VNĐ
                             </span>
                         </div>
                     </div>
