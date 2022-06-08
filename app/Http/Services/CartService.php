@@ -105,7 +105,7 @@ class CartService
         } 
         catch (\Exception $err) {
             DB::rollBack();
-            Session::flash();
+            Session::flash(');
             return false;
         }
 
