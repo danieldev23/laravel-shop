@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 
 // !Phần Trang chủ
 Route::get('/',[HomeController::class,'index']);
-Route::get('/services/load-product',[HomeController::class,'loadProduct']);
+Route::post('/services/load-product',[HomeController::class,'loadProduct']);
 Route::get('/danh-muc/{id}-{slug}.html',[MenuHomeController::class,'index']);
 Route::get('/san-pham/{id}-{slug}.html',[ProductHomeController::class,'index']);
 Route::post('/add-cart',[CartController::class,'index']);
