@@ -23,7 +23,7 @@ class HomeController extends Controller
     }
     public function index(){
         return view('home',[
-            'title'=>'Danh sách sản phẩm mới nhất',
+            'title'=>'Trang chủ',
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' =>$this->product->get()
