@@ -104,9 +104,9 @@ class CartService
             Session::forget('carts');
         } 
         catch (\Exception $err) {
-            DB::rollBack();
-            Session::flash(');
-            return false;
+//             DB::rollBack();
+//             Session::flash(');
+//             return false;
         }
 
         return true;
