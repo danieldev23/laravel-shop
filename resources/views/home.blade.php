@@ -85,7 +85,7 @@
 				</div>
 				<!-- Filter -->
 			</div>
-			{{-- <div class="row isotope-grid"> --}}
+	<div id="loadProduct">
 				@include('products.list')
 </div>
 <div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
