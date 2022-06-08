@@ -391,4 +391,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Đã 
 	</script>
 <!--===============================================================================================-->
 	<script src="{{asset('template/js/main.js')}}"></script>
-	{{-- <script src="{{asset('template/js/public.js')}}"></script> --}}
+    <script src="{{asset('template/js/public.js')}}"></script>
