@@ -1,32 +1,28 @@
 $.ajaxSetup({
-  headers: {
-    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
-  },
-    beforeSend: function(xhr, type) {
-        if (!type.crossDomain) {
-            xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'));
-        }
-    },
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
 });
 
 function removeRow(id, url) {
-  if (confirm("Xóa mà không thể khôi phục. Bạn có chắc ?")) {
-    $.ajax({
-      type: "DELETE",
-      datatype: "JSON",
-      data: { id },
-      url: url,
-      success: function (result) {
-        if (result.error === false) {
-          alert(result.message);
-          location.reload();
-        } else {
-          alert("Xoá thành công");
-        }
-      },
-    });
-  }
+    if (confirm('Xóa mà không thể khôi phục. Bạn có chắc ?')) {
+        $.ajax({
+            type: 'DELETE',
+            datatype: 'JSON',
+            data: { id },
+            url: url,
+            success: function (result) {
+                if (result.error === false) {
+                    alert(result.message);
+                    location.reload();
+                } else {
+                    alert('Xóa lỗi vui lòng thử lại');
+                }
+            }
+        })
+    }
 }
+
 
 /*Upload File */
 $('#upload').change(function () {
