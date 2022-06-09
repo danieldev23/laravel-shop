@@ -49,7 +49,7 @@ $("#upload").change(function () {
         );
         $("#thumb").val(results.url);
       } else {
-        alert("Upload File Thành Công");
+//         alert("Upload File Thành Công");
       }
     },
   });
