@@ -1,8 +1,10 @@
+$(document).ready(function (e) {
 $.ajaxSetup({
-    headers: {
-        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-    }
+headers: {
+'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+}
 });
+
 function removeRow(id, url) {
     if (confirm('Xóa mà không thể khôi phục. Bạn có chắc ?')) {
         $.ajax({
