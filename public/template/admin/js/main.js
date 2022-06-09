@@ -1,10 +1,10 @@
-$.ajaxSetup({
-    beforeSend: function(xhr, type) {
-        if (!type.crossDomain) {
-            xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'));
-        }
-    },
-});
+// $.ajaxSetup({
+//     beforeSend: function(xhr, type) {
+//         if (!type.crossDomain) {
+//             xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'));
+//         }
+//     },
+// });
 
 function removeRow(id, url) {
   if (confirm("Xóa mà không thể khôi phục. Bạn có chắc ?")) {
