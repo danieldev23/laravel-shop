@@ -2,9 +2,9 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/template/admin/index3.html" class="brand-link">
+    <a href="/admin" class="brand-link">
       <!-- <img src="/template/admin/dist/img/avatar5.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
-      <span class="brand-text font-weight-light" style="text-align: center"><b>DANG QUOC HUY</b></span>
+      <span class="brand-text font-weight-light" style="text-align: center"><b>ADMIN</b></span>
     </a>
 
     <!-- Sidebar -->
@@ -15,7 +15,7 @@
           <img src="/template/admin/dist/img/avt.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="/admin/" class="d-block">Huy Developer</></a>
+          <a href="/admin/" class="d-block">Tiệm sách Julie</></a>
         </div>
       </div>
 
