@@ -23,9 +23,9 @@ class SliderController extends Controller
 
     public function store(Request $request){
         $this->validate($request, [
-//             'name' => 'required',
+            'name' => 'required',
             'thumb' => 'required',
-//             'url' => 'required'
+            'url' => 'required'
         ]);
 
         $this->slider->insert($request);
