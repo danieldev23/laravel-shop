@@ -18,9 +18,9 @@
                                 </div>
 
                                 <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-                                    <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                       <!--             <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
                                         {{ $slider->name }}
-                                    </h2>
+                                    </h2> -->
                                 </div>
 
                                 <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
