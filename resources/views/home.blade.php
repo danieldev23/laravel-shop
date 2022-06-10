@@ -13,7 +13,7 @@
                             <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                                 <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
                             <span class="ltext-101 cl2 respon2">
-                                HOT 2021
+                                HOT 2022
                             </span>
                                 </div>
 
@@ -52,7 +52,7 @@
                             </span>
 
                                     <span class="block1-info stext-102 trans-04">
-                                HOT 2021
+                                HOT 2022
                             </span>
                                 </div>
 
