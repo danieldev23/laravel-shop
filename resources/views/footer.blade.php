@@ -57,7 +57,7 @@
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-						Xóm 4 - Xã Nam Kim - Huyện Nam Đàn - Tỉnh Nghệ An
+						Xóm 5 - Xã Nam Kim - Huyện Nam Đàn - Tỉnh Nghệ An
 					</p>
 
 					<div class="p-t-27">
