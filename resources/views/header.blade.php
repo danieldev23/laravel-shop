@@ -8,7 +8,7 @@
 				<nav class="limiter-menu-desktop container">
 
 					<!-- Logo desktop -->
-					<a href="#" class="logo">
+					<a href="/" class="logo">
 						<img src="template/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
@@ -22,7 +22,7 @@
 							</li>
 
 							<li>
-								<a href="contact.html">Liên hệ</a>
+								<a href="https://www.facebook.com/DocsachcungJulie" target="_blank">Liên hệ</a>
 							</li>
 						</ul>
 					</div>
