@@ -142,7 +142,7 @@
   <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/cong85010/github-readme-stats"><img alt="Candida's Github Stats" src="https://github-readme-stats.vercel.app/api?username=cong85010&show_icons=true&count_private=true&theme=algolia" height="192px"/></a>
+    <a href="https://github.com/danieldev23/github-readme-stats"><img alt="Candida's Github Stats" src="https://github-readme-stats.vercel.app/api?username=cong85010&show_icons=true&count_private=true&theme=algolia" height="192px"/></a>
 <br/>
   &nbsp;
 	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cong85010&show_icons=true&locale=en&layout=compact&theme=algolia" alt="candida18" height="192px"/>
