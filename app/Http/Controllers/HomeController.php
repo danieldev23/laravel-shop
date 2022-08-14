@@ -24,7 +24,7 @@ class HomeController extends Controller
     public function index(){
         return view('home',[
 //             'title'=>'Tiệm sách Julie - Chuyên phân phối sách thiếu nhi, giáo cụ Glenn Doman và các loại sách khác',
-            'title' => 'Đặng Q
+            'title' => 'Shop Bán Hàng - Sản phẩm web đầu tay của Đặng Quốc Huy',
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' =>$this->product->get()
