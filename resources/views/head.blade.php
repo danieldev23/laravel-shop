@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
 <base href="{{ asset('/') }}">
-<link rel="icon" type="image/png" href="{{asset('template/images/icons/HL.png')}}"/>
+<link rel="icon" type="image/png" href="{{asset('template/images/icons/iconx.png')}}"/>
 <meta property="og:image" content="{{asset('template/images/intro.jpg')}}" />
 <!--=====================================/==========================================================-->
 <link rel="stylesheet" type="text/css" href="{{asset('template/vendor/bootstrap/css/bootstrap.min.css')}}">
