@@ -70,7 +70,7 @@ class MenuService{
           return Menu::where('id', $id)->orWhere('parent_id', $id)->delete();
       }
 
-      return false;
+      return true;
   }
 
   public function getId($id)
