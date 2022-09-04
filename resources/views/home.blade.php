@@ -9,16 +9,8 @@
                 @foreach($sliders as $slider)
 
            <!--         <div class="item-slick1" style="background-image: url({{ $slider->thumb }});">  -->
-                    <div class="item-slick1" style="background-image: url(https://i.ibb.co/MkXTMGF/Pastel-Brown-Abstract-Shopping-You-Tube-Thumbnail.jpg);"> 
+                    <div class="item-slick1" style="background-image: url(https://i.ibb.co/G04bJ9P/3-D-Ilustration-Easy-Shoping-Facebook-Cover.jpg);"> 
                     
-                        <div class="container h-full">
-                            <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
-                                <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-                    <!--        <span class="ltext-101 cl2 respon2">
-                                HOT 2022
-                            </span> -->
-                                </div>
-                    <div class="item-slick1" style="background-image: url(https://i.ibb.co/G04bJ9P/3-D-Ilustration-Easy-Shoping-Facebook-Cover.jpg);">
                         <div class="container h-full">
                             <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                                 <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
